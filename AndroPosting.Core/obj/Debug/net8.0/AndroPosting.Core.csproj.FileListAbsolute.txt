@@ -1,0 +1,11 @@
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\bin\Debug\net8.0\AndroPosting.Core.deps.json
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\bin\Debug\net8.0\AndroPosting.Core.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\bin\Debug\net8.0\AndroPosting.Core.pdb
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.AssemblyInfoInputs.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.AssemblyInfo.cs
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.csproj.CoreCompileInputs.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\refint\AndroPosting.Core.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\AndroPosting.Core.pdb
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Core\obj\Debug\net8.0\ref\AndroPosting.Core.dll

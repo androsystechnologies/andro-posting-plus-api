@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Infrastructure\\AndroPosting.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\AndroPosting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\AndroPosting.Core.csproj",
+        "projectName": "AndroPosting.Core",
+        "projectPath": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\AndroPosting.Core.csproj",
+        "packagesPath": "C:\\Users\\senth\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Infrastructure\\AndroPosting.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Infrastructure\\AndroPosting.Infrastructure.csproj",
+        "projectName": "AndroPosting.Infrastructure",
+        "projectPath": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Infrastructure\\AndroPosting.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\senth\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\senth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\AndroPosting.Core.csproj": {
+                "projectPath": "D:\\source\\repos\\Projects\\AndroSysApps\\AndroPostingApps\\andro-posting-plus-api\\AndroPosting.Core\\AndroPosting.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

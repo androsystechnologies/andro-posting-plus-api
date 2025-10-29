@@ -1,0 +1,17 @@
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Infrastructure.deps.json
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Infrastructure.runtimeconfig.json
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Infrastructure.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Infrastructure.pdb
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Core.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\bin\Debug\net8.0\AndroPosting.Core.pdb
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.csproj.AssemblyReference.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.AssemblyInfoInputs.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.AssemblyInfo.cs
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.csproj.CoreCompileInputs.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPos.9B32B182.Up2Date
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\refint\AndroPosting.Infrastructure.dll
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.pdb
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\AndroPosting.Infrastructure.genruntimeconfig.cache
+D:\source\repos\Projects\AndroSysApps\AndroPostingApp\AndroPosting.Infrastructure\obj\Debug\net8.0\ref\AndroPosting.Infrastructure.dll
