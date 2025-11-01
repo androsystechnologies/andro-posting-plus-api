@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AndroPosting.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db8ad0dd0456520b514e81dccd4f86d6ecbe069")]
 [assembly: System.Reflection.AssemblyProductAttribute("AndroPosting.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AndroPosting.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
