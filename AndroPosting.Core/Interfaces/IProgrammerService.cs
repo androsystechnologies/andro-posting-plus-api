@@ -8,5 +8,6 @@ namespace AndroPosting.Core.Interfaces
 {
     public interface IProgrammerService
     {
+        void WorkOnTask();
     }
 }

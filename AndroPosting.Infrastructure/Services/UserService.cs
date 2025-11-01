@@ -1,6 +1,7 @@
 ﻿using AndroPosting.Core.Entities;
 using AndroPosting.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,19 +16,30 @@ namespace AndroPosting.Infrastructure.Services
     {
         IEmailService _emailService;
         DbContext _dbContext;
-        public UserService(IEmailService aEmailService, DbContext aDbContext)
+        private ILoggerService _loggerService;
+        public UserService(IEmailService aEmailService, DbContext aDbContext, ILoggerService aLoggerService)
         {
             _emailService = aEmailService;
             _dbContext = aDbContext;
+            _loggerService = aLoggerService;
         }
+       
         public void Register(string email, string password)
         {
-            if (!_emailService.ValidateEmail(email))
-                throw new ValidationException("Email is not an email");
-            var user = new AppUser(email, password);
-            _dbContext.Save(user);
-            _emailService.SendEmail(new MailMessage("myname@mydomain.com", email) { Subject = "Hi. How are you!" });
-
+            try
+            {
+                if (!_emailService.ValidateEmail(email))
+                    throw new ValidationException("Email is not an email");
+                var user =new AppUser { UserName=email, Password = password};
+                _dbContext.Add(user);
+                _dbContext.SaveChanges();
+                _emailService.SendEmail(new MailMessage("myname@mydomain.com", email) { Subject = "Hi. How are you!" });
+            }
+            catch (Exception ex)
+            {
+                _loggerService.LogMessage(ex.Message);
+            }
+            
         }
     }
 }

@@ -8,5 +8,7 @@ namespace AndroPosting.Core.Interfaces
 {
     public interface ILeadService
     {
+        void AssignTask();
+        void CreateSubTask();
     }
 }
